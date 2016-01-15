@@ -1,0 +1,105 @@
+body {
+    background: #add8e6;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top:5%;
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1{
+    color:#b22222;
+    text-align: right;
+    font-size: 2em;
+}
+
+h1 strong{
+    font-size: 5em;
+    text-align: center;
+}
+
+h1:before{
+    content: "\2604";
+    font-size: 130px;
+}
+
+nav{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+nav a{
+    background-color: #4682b4;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: 2%;
+    border-radius: 15px;
+    color: white;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+}
+
+
+nav a:hover{
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+}
+
+h2{
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-weight: normal;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+    padding: 0.5em;
+    opacity: 0.5;
+    margin-top: 5%;
+}
+ blockquote{
+     font-style: italic;
+ }
+ section#Second pre{
+     background-color: black;
+     color: white;
+     border-color: white;
+     border-width: medium;
+     margin-left: 20%;
+     margin-right: 30%;
+ }
+ section#Second caption{
+     font-size: 30px;
+     text-align: center;
+ }
+
+ section#Third div{
+     text-align: center;
+ }
+
+section#Third a{
+    background-color: #b22222;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 15px;
+    color: white;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+}
+
+section#Third > a:before{
+    content: "\21E9";
+    font-size: 25px;
+}
+
+ footer{
+     background-color: #e0ffff;
+     margin-top: 5%;
+ }
